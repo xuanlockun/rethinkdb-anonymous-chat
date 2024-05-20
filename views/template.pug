@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title RethinkDB chat
+    link(rel='stylesheet', href='style.css')
+    script(src='/socket.io/socket.io.js')
+    script(src='script.js')
+  body
+    h1 Chat ẩn danh RethinkDB
+    ul#messageList
+      each item in data
+        li(data-chat=item.chat)= item.chat
+    form(id="chatForm")
+      input(type="text", name="chat", id="chatInput")
+      button(type="submit") Gửi 

@@ -1,0 +1,20 @@
+{
+  "name": "rethinkdb",
+  "version": "1.0.0",
+  "description": "pony iu em",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rawr",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "rethinkdbdash": "^2.3.31",
+    "socket.io": "^4.7.5"
+  }
+}
